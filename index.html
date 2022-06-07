@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG TORMENTA</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+        
+        <div class="logo"><img src="tormenta logo.png" alt=""></div>
+        
+        <div class="card" id="ilana">
+            <div class="content">
+
+                <h2>Ilana</h2>
+
+
+            </div>
+        </div>
+
+        <div class="card" id="isildur">
+            <div class="content">
+                <h2>Isildur</h2>
+
+
+
+            </div>
+        </div>
+
+        <div class="card" id="nostradamus">
+            <div class="content">>
+                <h2>Nostradamus</h2>
+
+
+
+            </div>
+        </div>
+        <div class="card" id="hexxar">
+            <div class="content">
+                <h2>Hexxar</h2>
+
+
+
+            </div>
+        </div>
+        <div class="card" id="marvin">
+            <div class="content">
+                <h2>Marvin</h2>
+                <p>
+                </p>
+                <!-- >>>>>>MODAL<<<<<< -->
+        <div id="divModal" class="modal"><b></b>
+                    <div class="modal-content" >
+                       <label for="">CLASSE: </label><select name="Classe" id=""><br>
+                        <OPtion>SELECIONE:</OPtion>
+                           <OPtion>PALADINO</OPtion>
+                           <OPtion>LADINO</OPtion>
+                           <OPtion>DINVIDADE</OPtion>
+                           <OPtion>ARQUEIRO</OPtion>
+                           <OPtion>BARDO</OPtion>
+                           <OPtion>BARBARO</OPtion>
+                       </select>
+                       <DIV >
+                           <LABEl >LEVEL: <input type="number" class="level"></LABEl>
+                       </DIV><BR>
+                       <!-- ATAQUE TOTAL -->
+                        <div >
+                           <LABEL class="ataqueTotal">ATAQUE TOTAL: 
+                               <INPUT type="number"class="ataqueTotal" id="ataqueTotal" value="number">
+                            </LABEL>
+                            <label class="buffAtaque">BUFFS</label>
+                            <INPUT type="number"class="buffAtaque" id="buffAtaque" value="number">
+                            </LABEL>
+                              <!--   <label class="igual">=</label><INPUT type="number"class="igual"></LABEL>  --> 
+                        <br> 
+                       </div>
+                        <!-- DEFESA TOTAL -->
+                       <div><br>
+                        <LABEL class="defesaTotal">DEFESA TOTAL: <INPUT type="number" class="defesaTotal"></LABEL>
+                            <label class="buffDefesa">BUFFS</label><INPUT type="number"class="buffDefesa"></LABEL>
+                               <!--  <label class="igual"> = </label><INPUT type="number"class="igual"></LABEL> -->
+                       </div>
+                       
+                       <BR>
+                       <LABEL class="ataque">ATAQUE: 
+                        <INPUT type="number" class="ataque" > / </LABEL> 
+                        <INPUT type="number" class="ataque" > / </LABEL> 
+                        <INPUT type="number" class="ataque" > * </LABEL>
+                            <INPUT type="number" class="ataque" >  </LABEL>
+                        <BR></BR>
+                        <LABEL class="defesa">DEFESA: 
+                        <INPUT type="number" class="defesa">
+                        </LABEL> / <INPUT type="number" class="defesa"></LABEL>
+                        </LABEL> / <INPUT type="number" class="defesa"></LABEL>
+                        </LABEL> * <INPUT type="number" class="defesa"></LABEL>
+                            <BR></BR>
+                         <LABEL class="pv">P. DE VIDA: <INPUT type="number" class="pv" ></LABEL>
+                        
+                        <label class="pvAtual">P. VIDA ATUAL:<input type="number" class="pvAtual"></label> 
+                                               
+                    </div></b> <BR></BR>   
+                    <DIV class="dados" >
+                        <LABEL class="dados"><b>DADOS</b></LABEL> <INput class="dados" type="number"></INput>
+                        <input class="botao" type="submit" value="CALCULAR" onclick="calcular()">
+                    </DIV>
+                    
+                    
+                    
+                    
+
+            </div>
+    </div>
+
+        
+        
+</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
